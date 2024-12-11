@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Рестораны мира</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <a href="index.html"><img src="logo.png" alt="Логотип" style="width: 80px; height: 50px;"></a>
+    <nav>
+        <div class="dropdown">
+            <a href="attractions.html">Достопримечательности</a>
+            <div class="dropdown-content">
+                <a href="attractions.html#asia">Азия</a>
+                <a href="attractions.html#europe">Европа</a>
+                <a href="attractions.html#america">Америка</a>
+                <a href="attractions.html#africa">Африка</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="restaurants.html">Рестораны</a>
+            <div class="dropdown-content">
+                <a href="#chinaRest">Китайская кухня</a>
+                <a href="#europeRest">Европейская кухня</a>
+                <a href="#otherRest">Другие кухни</a>
+            </div>
+        </div>
+        <a href="events.html">Мероприятия</a>
+        <a href="tips.html">Советы путешественникам</a>
+        <span class="login">
+            <a href="login.html">Log in</a>
+        </span>
+    </nav>
+</header>
+
+<main>
+    <section class="restaurants">
+        <h1>Лучшие рестораны мира</h1>
+        <section id="chinaRest" class="cuisine-section">
+            <h2>Китайская кухня</h2>
+            <ul class="restaurant-list">
+                <li class="restaurant-item">
+                    <img src="chinaRest.jpg" alt="Ресторан Китайской кухни" class="restaurant-img">
+                    <div class="restaurant-info">
+                        <h3>Шанхайская Легенда</h3>
+                        <p>Китайский ресторан, который сочетает традиционные китайские рецепты с инновациями современной гастрономии. Здесь подают утку по-пекински, димсамы и лучшие морепродукты.</p>
+                        <button class="menu-btn">Добавить в меню</button>
+                    </div>
+                </li>
+                <li class="restaurant-item">
+                    <img src="chinaRest2.jpg" alt="Ресторан Китайской кухни" class="restaurant-img">
+                    <div class="restaurant-info">
+                        <h3>Небесный Вкус</h3>
+                        <p>Ресторан с уникальными блюдами китайской кухни, включая супы с морепродуктами и жареный рис.</p>
+                        <button class="menu-btn">Добавить в меню</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="europeRest" class="cuisine-section">
+            <h2>Европейская кухня</h2>
+            <ul class="restaurant-list">
+                <li class="restaurant-item">
+                    <img src="europeRest.jpg" alt="Ресторан Европейской кухни" class="restaurant-img">
+                    <div class="restaurant-info">
+                        <h3>Бистро в Париже</h3>
+                        <p>Незаменимый ресторан для любителей французской кухни. От классической утки с апельсиновым соусом до вкуснейших круассанов.</p>
+                        <button class="menu-btn">Добавить в меню</button>
+                    </div>
+                </li>
+                <li class="restaurant-item">
+                    <img src="europeRest2.jpg" alt="Ресторан Европейской кухни" class="restaurant-img">
+                    <div class="restaurant-info">
+                        <h3>Римский вкус</h3>
+                        <p>Традиционные блюда Италии, включая пасту и пиццу, приготовленные по семейным рецептам.</p>
+                        <button class="menu-btn">Добавить в меню</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section id="otherRest" class="cuisine-section">
+            <h2>Другие кухни</h2>
+            <ul class="restaurant-list">
+                <li class="restaurant-item">
+                    <img src="otherRest.jpg" alt="Ресторан других кухонь" class="restaurant-img">
+                    <div class="restaurant-info">
+                        <h3>Суши и Сашими</h3>
+                        <p>Японский ресторан, известный своими свежими суши и сашими, подаваемыми с морепродуктами, пойманными в тот же день.</p>
+                        <button class="menu-btn">Добавить в меню</button>
+                    </div>
+                </li>
+                <li class="restaurant-item">
+                    <img src="otherRest2.jpg" alt="Ресторан других кухонь" class="restaurant-img">
+                    <div class="restaurant-info">
+                        <h3>Тортилья</h3>
+                        <p>Мексиканский ресторан, в котором подают восхитительные такос и гуакамоле, приготовленные по традиционным рецептам.</p>
+                        <button class="menu-btn">Добавить в меню</button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </section>
+</main>
+
+<footer>
+    <p>Копирайт © 2024 Акишев Акжан.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>   
+<header class="container d-flex align-items-center py-3">
+    <a href="index.html"><img src="logo.png" alt="Логотип" style="width:80px; height: 50px;"></a>
+    <nav class="d-flex flex-grow-1 justify-content-center gap-4">
+        <div class="dropdown">
+            <a href="attractions.html" class="nav-link">Достопримечательности</a>
+            <div class="dropdown-content">
+                <a href="attractions.html#asia">Азия</a>
+                <a href="attractions.html#europe">Европа</a>
+                <a href="attractions.html#america">Америка</a>
+                <a href="attractions.html#africa">Африка</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="restaurants.html" class="nav-link">Рестораны</a>
+            <div class="dropdown-content">
+                <a href="restaurants.html#chinaRest">Китайская кухня</a>
+                <a href="restaurants.html#europeRest">Европейская кухня</a>
+                <a href="restaurants.html#otherRest">Другие кухни</a>
+            </div>
+        </div>
+        <a href="https://www.getyourguide.com/?partner_id=MH9NGR8&cmp=homepage_navigation" class="nav-link">Мероприятия</a>
+        <a href="tips.html" class="nav-link">Советы путешественникам</a>
+        <span class="login">
+            <a href="login.html" class="btn btn-primary">Войти</a>
+        </span>
+    </nav>
+</header>
+
+<div class="hero d-flex justify-content-center align-items-center">
+    <div class="image-gallery d-flex gap-4">
+        <a href="FirstState.html" style="color: white;">
+            <div class="gallery-item" style="background-image: url('bgimage-sec1.jpg');">
+                <div class="gallery-caption">
+                    <span>2 лучших места чтобы пойти</span>
+                    <span class="arrow">&rarr;</span>
+                </div>
+            </div>
+        </a>
+        <a href="SecondState.html" style="color: white">
+        <div class="gallery-item" style="background-image: url('bgimage2-sec1.jpg');">
+            <div class="gallery-caption">
+                <span>10 Удивительных мест для путешествий в одиночку</span>
+                <span class="arrow">&rarr;</span>
+            </div>
+        </div>
+        </a>
+        <a href="ThirdState.html" style="color: white">
+        <div class="gallery-item" style="background-image: url('bgimage3-sec1.jpg');">
+            <div class="gallery-caption">
+                <span>7 лучших мест для наблюдения за звездным небом</span>
+                <span class="arrow">&rarr;</span>
+            </div>
+        </div>
+        </a>
+    </div>
+    <div class="centered-text">
+        <h1>Откройте<br>Незабываемые Моменты Путешествий</h1>
+    </div>
+</div>
+
+<div class="popular-places my-4 p-4 bg-light rounded">
+    <h2 class="text-center">Популярные места для путешествий</h2>
+    <ul class="list-unstyled">
+        <li><a href="tokyo.html">Токио, Япония</a></li>
+        <li><a href="paris.html">Париж, Франция</a></li>
+        <li><a href="newyork.html">Нью-Йорк, США</a></li>
+        <li><a href="capetown.html">Кейптаун, Южная Африка</a></li>
+    </ul>
+</div>
+
+<section class="destination-section">
+    <div class="destination-header">
+      <p>СПЛАНИРУЙТЕ СВОЁ ПУТЕШЕСТВИЕ</p>
+      <h2>Куда отправимся?</h2>
+      <button class="view-all-btn">Посмотреть все направления</button>
+    </div>
+    <div class="destination-cards">
+      <div class="destination-card">
+        <img src="newzealand.jpg" alt="Новая Зеландия">
+        <h3>Новая Зеландия</h3>
+      </div>
+      <div class="destination-card">
+        <img src="morocco.jpg" alt="Марокко">
+        <h3>Марокко</h3>
+      </div>
+      <div class="destination-card">
+        <img src="iceland.jpg" alt="Исландия">
+        <h3>Исландия</h3>
+      </div>
+    </div>
+</section>  
+
+<section class="dream-itinerary-section">
+    <div class="dream-itinerary-container">
+      <div class="image-section">
+        <img src="fff.jpg" alt="Гид по путешествиям" class="image">
+      </div>
+      <div class="content-section">
+        <h1>Ваш маршрут мечты, созданный вместе с вами</h1>
+        <div class="tabs">
+          <span class="tab active" data-content="1">Как это работает?</span>
+          <span class="tab" data-content="2">Кто наши местные эксперты?</span>
+          <span class="tab" data-content="3">Что включено?</span>
+        </div>
+        <div class="tab-content">
+          <p class="description">
+            Сделайте запрос на поездку, свяжитесь с местным экспертом и расслабьтесь, пока наши эксперты создают индивидуальный маршрут, основанный на опыте, эксклюзивности и удобстве. Это поездка, которую вы не смогли бы спланировать сами, с поддержкой на месте 24/7.
+          </p>
+        </div>
+        <button class="explore-btn">Изучить другие направления →</button>
+      </div>
+    </div>
+</section>
+  
+<footer class="text-center py-3 bg-primary text-white">
+    <p>Копирайт © 2024 Акишев Акжан.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+<script>
+const tabs = document.querySelectorAll('.tab');
+const description = document.querySelector('.description');
+
+const contentData = {
+  1: "Сделайте запрос на поездку, свяжитесь с местным экспертом и расслабьтесь, пока наши эксперты создают индивидуальный маршрут, основанный на опыте, эксклюзивности и удобстве. Это поездка, которую вы не смогли бы спланировать сами, с поддержкой на месте 24/7.",
+  2: "Наши местные эксперты — это опытные профессионалы, которые живут и работают в выбранном вами направлении. Они знают все скрытые жемчужины и могут создать персонализированный маршрут специально для вас.",
+  3: "Ваш маршрут включает всё: от жилья и мероприятий до местных советов и поддержки 24/7, что гарантирует беспроблемное и незабываемое путешествие."
+};
+
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    tabs.forEach(t => t.classList.remove('active'));
+    tab.classList.add('active');
+
+    const contentId = tab.getAttribute('data-content');
+    const newContent = contentData[contentId];
+
+    description.classList.add('hidden');
+    setTimeout(() => {
+      description.textContent = newContent;
+      description.classList.remove('hidden');
+    }, 300);
+  });
+});
+</script>
+</body>
+</html>

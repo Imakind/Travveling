@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Советы путешественникам</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: DejaVu Sans Mono, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    font-family: Gill Sans, sans-serif;
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 150px;
+}
+
+header img {
+    width: 100px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 20px;
+    font-family: 'Apercu Mono', sans-serif;
+    flex-grow: 1;
+    align-items: center;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Tusker Grotesk', sans-serif;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: rgb(0 87 217);
+}
+        .hero {
+            background: url('travel-main.jpg') center/cover no-repeat;
+            height: 50vh;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .tips-section {
+            padding: 3rem 1rem;
+        }
+        .tip-card {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            margin-bottom: 2rem;
+        }
+        .tip-card img {
+            width: 100%;
+            height: auto;
+        }
+        .tip-card h5 {
+            padding: 1rem;
+            background-color: #007bff;
+            color: white;
+            margin: 0;
+        }
+        .tip-card p {
+            padding: 1rem;
+        }
+        .tip-card:hover {
+            transform: scale(1.02);
+            transition: transform 0.2s;
+        }
+        
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 300px;
+    z-index: 1;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: #264653;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 0.9em;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+    </style>
+</head>
+<body>
+    <header class="container d-flex align-items-center py-3">
+        <a href="index.html"><img src="logo.png" alt="Логотип" style="width:80px; height: 50px;"></a>
+        <nav class="d-flex flex-grow-1 justify-content-center gap-4">
+            <div class="dropdown">
+                <a href="attractions.html" class="nav-link">Достопримечательности</a>
+                <div class="dropdown-content">
+                    <a href="attractions.html#asia">Азия</a>
+                    <a href="attractions.html#europe">Европа</a>
+                    <a href="attractions.html#america">Америка</a>
+                    <a href="attractions.html#africa">Африка</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="restaurants.html" class="nav-link">Рестораны</a>
+                <div class="dropdown-content">
+                    <a href="restaurants.html#chinaRest">Китайская кухня</a>
+                    <a href="restaurants.html#europeRest">Европейская кухня</a>
+                    <a href="restaurants.html#otherRest">Другие кухни</a>
+                </div>
+            </div>
+            <a href="https://www.getyourguide.com/?partner_id=MH9NGR8&cmp=homepage_navigation" class="nav-link">Мероприятия</a>
+            <a href="tips.html" class="nav-link">Советы путешественникам</a>
+            <span class="login">
+                <a href="login.html" class="btn btn-primary">Войти</a>
+            </span>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="text-center">
+            <h1>Советы путешественникам</h1>
+            <p>Ваш путеводитель в мир безопасных и увлекательных поездок</p>
+        </div>
+    </div>
+
+    <main class="tips-section container">
+        <h2 class="text-center mb-5">Полезные советы для вашего путешествия</h2>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tip-card">
+                    <h5>1. Проверьте документы</h5>
+                    <p>Перед поездкой убедитесь, что ваш паспорт действителен, а виза соответствует требованиям страны назначения. Всегда имейте копии документов.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tip-card">
+                    <h5>2. Пакуйте вещи разумно</h5>
+                    <p>Берите только самое необходимое. Используйте список, чтобы ничего не забыть. Компактные дорожные аксессуары помогут оптимизировать багаж.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tip-card">
+                    <h5>3. Планы по финансам</h5>
+                    <p>Рассчитайте бюджет путешествия, подготовьте наличные и карты. Убедитесь, что ваша карта поддерживает международные транзакции.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tip-card">
+                    <h5>4. Позаботьтесь о здоровье</h5>
+                    <p>Соберите аптечку первой помощи. Если необходимо, сделайте прививки перед поездкой. Проверьте страховой полис.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="tip-card">
+                    <h5>5. Учите основы языка</h5>
+                    <p>Выучите несколько ключевых фраз на языке страны, куда направляетесь. Это поможет наладить контакт с местными жителями.</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="tip-card">
+                    <h5>6. Изучите местные обычаи</h5>
+                    <p>Уважайте традиции и обычаи страны. Это сделает ваше путешествие комфортным и более интересным.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <a href="contact.html" class="btn btn-primary">Задайте нам вопрос</a>
+        </div>
+    </main>
+
+    <footer class="text-center py-3 bg-dark text-white">
+        <p>Копирайт &copy; 2024. Акишев Акжан</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
